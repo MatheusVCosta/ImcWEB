@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Aula24/05</title>
+	</head>
+	<body>
+		<heater>
+			<h1>Calculo Do IMC</h1>
+		</heater>
+		<form method="GET" action="resultado.jsp"><!-- Criar formulário -->
+		<!-- Quando clicar em calcular, o form vai ser mandado para o arquivo resultado.jsp-->
+		
+			<label for="txtNome">Nome: </label><!-- Label do html5-->
+			<!--for="txtNome" é pra falar que a label Nome é vinculada com o text -->
+			<input type="text" name="txtNome"><p>
+			<label for="txtIdade">Idade: </label>
+			<input type="text" name="txtIdade"><p>
+			
+			<label for="txtPeso">Peso: </label>
+			<input type="text" name="txtPeso"><p>
+
+			<label for="txtAltura">Altura: </label>
+			<input type="text" name="txtAltura"><p>
+			<label for="txtSenha">Senha: </label>
+			<input type="password" name="txtSenha"><p>
+			<input type="submit" value="calcular">
+			
+		</form>
+	</body>
+</html>
